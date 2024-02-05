@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  padding: 20px 132px 24px 132px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.video {
+  margin-top: 40px;
+  display: flex;
+  width: 1138px;
+  height: 663px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 15px solid var(--white-97, #f7f7f8);
+  background-image: url(../src/Pages/img/Container.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.video img {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 68px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.item {
+  display: flex;
+  padding: 30px 40px;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #f1f1f3;
+}
+
+button:hover {
+  background: gold;
+  color: #fff;
+}
