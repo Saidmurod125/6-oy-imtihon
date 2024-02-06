@@ -18,7 +18,7 @@ import Obj from "./Obj";
 const Home = () => {
   return (
     <main className="container mx-auto">
-      <section className="hero ">
+      <section className="container mx-auto ">
         <div className="mx-auto mt-28 h-[337px]  w-[965px]">
           <div className="flex flex-wrap items-center justify-between ">
             <div className=" flex h-[100px]  w-[854px] items-center justify-center rounded-xl  bg-white">
@@ -58,31 +58,29 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="company">
-        <div className="counter">
-          <div className="flex flex-wrap items-center justify-between">
-            <div className="flex flex-wrap items-center justify-center gap-3 rounded-md border bg-white p-8 ">
-              <div className="flex items-center justify-center border-r pr-10 pt-8">
-                <img src={zapier} alt="" />
-              </div>
-              <div className="item">
-                <img src={soptify} alt="" />
-              </div>
-              <div className="item">
-                <img src={zoom} alt="" />
-              </div>
-              <div className="item">
-                <img src={amazon} alt="" />
-              </div>
-              <div className="item">
-                <img src={adobe} alt="" />
-              </div>
-              <div className="item">
-                <img src={Notion} alt="" />
-              </div>
-              <div className="item no">
-                <img src={netflex} alt="" />
-              </div>
+      <section className="container mx-auto w-full items-center justify-center">
+        <div className="container mx-auto mt-10 flex flex-wrap items-center justify-between ">
+          <div className="mx-auto flex flex-wrap items-center justify-center gap-3 rounded-xl border bg-white p-8 ">
+            <div className="flex items-center justify-center border-r pr-10 ">
+              <img src={zapier} alt="" />
+            </div>
+            <div className="item">
+              <img src={soptify} alt="" />
+            </div>
+            <div className="item">
+              <img src={zoom} alt="" />
+            </div>
+            <div className="item">
+              <img src={amazon} alt="" />
+            </div>
+            <div className="item">
+              <img src={adobe} alt="" />
+            </div>
+            <div className="item">
+              <img src={Notion} alt="" />
+            </div>
+            <div className="item no">
+              <img src={netflex} alt="" />
             </div>
           </div>
         </div>
@@ -101,7 +99,7 @@ const Home = () => {
                 Ac cum eget habitasse in velit fringilla feugiat senectus in.
               </p>
               <div className="  h-10 w-[95px] items-end self-end rounded-xl border py-2  text-center   hover:bg-orange-500 hover:text-white">
-                <Link to="/"> View all</Link>
+                <Link to="/About"> View all</Link>
               </div>
             </div>
             <div className="flex w-full flex-wrap gap-3">
@@ -120,8 +118,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4 hover:bg-orange-500"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -140,8 +138,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="hover:bg-orange-500-md ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded border bg-slate-100 p-4"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -160,8 +158,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4 hover:bg-orange-500"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -180,8 +178,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4 hover:bg-orange-500"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -200,8 +198,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4 hover:bg-orange-500"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -220,8 +218,8 @@ const Home = () => {
                     </p>
                   </div>
                   <Link
-                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4"
-                    href="/"
+                    className="ml-96 mr-3 flex w-14 flex-wrap items-center justify-center gap-2 rounded-md border bg-slate-100 p-4 hover:bg-orange-500"
+                    to="/About"
                   >
                     <img src={icon3} alt="" />
                   </Link>
@@ -234,15 +232,15 @@ const Home = () => {
       <section className="courses">
         <div className="counter">
           <div className="row">
-            <div className="course_top">
-              <h2>Our Courses</h2>
-              <p>
+            <div className="flex w-full flex-col flex-wrap gap-3">
+              <h2 className="text-left text-2xl font-semibold">Our Courses</h2>
+              <p className=" h-12  w-[933px]">
                 Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
                 eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et.
                 Ac cum eget habitasse in velit fringilla feugiat senectus in.
               </p>
-              <div className="link">
-                <a href="#"> View all</a>
+              <div className="  h-10 w-[95px] items-end self-end rounded-xl border py-2  text-center   hover:bg-orange-500 hover:text-white">
+                <Link to="/Courses"> View all</Link>
               </div>
             </div>
             <div className="container mx-auto grid grid-cols-2 gap-4">
@@ -270,9 +268,12 @@ const Home = () => {
                 </p>
               </div>
               <div className="ml-40 mt-20 ">
-                <button className="bg-light-970 hover:bg-light-950 h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium">
+                <Link
+                  className="bg-light-970 hover:bg-light-950 h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium"
+                  to="/Singer"
+                >
                   View all
-                </button>
+                </Link>
               </div>
             </div>
             <div className="container mx-auto ">

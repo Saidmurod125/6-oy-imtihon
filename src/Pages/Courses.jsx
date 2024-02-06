@@ -6,7 +6,7 @@ import ui from "./img/courses/ui.png";
 import web from "./img/courses/web.png";
 export default function Courses() {
   return (
-    <>
+    <div className="container mx-auto ">
       <main className="container mx-32 flex-1 ">
         <div className="flex border-b ">
           <h2 className="mb-14 text-2xl font-semibold">
@@ -527,6 +527,6 @@ export default function Courses() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

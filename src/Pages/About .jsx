@@ -3,7 +3,7 @@ import Logo from "../image/Vector.svg";
 
 export default function About() {
   return (
-    <div>
+    <div className="container mx-auto ">
       <div className="bg-logo mb-[50px] mt-[50px] flex flex-col rounded-[10px] bg-white p-[30px] xl:mb-[100px] xl:flex-row xl:justify-between xl:p-[60px] ">
         <main className="flex-1 xl:px-[60px]">
           <div className="flex flex-col gap-4 border-b pb-[30px] pt-[50px]  md:items-center lg:flex-row lg:justify-between">

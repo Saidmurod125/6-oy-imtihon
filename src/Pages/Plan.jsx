@@ -4,9 +4,9 @@ import logo from "../image/pit.svg";
 import x from "../image/x.svg";
 const Plan = () => {
   return (
-    <div>
-      <div className="flex flex-col gap-4 border-b pb-[30px] pt-[50px]  md:block md:items-center lg:flex-row  lg:justify-between">
-        <h1 className="title">Our Pricings</h1>
+    <div className="container mx-auto ">
+      <div className="container mx-auto w-full flex-col gap-4 border-b pb-8 pt-14 md:flex md:flex-col md:items-center lg:flex-row lg:justify-between">
+        <h1 className="flex text-2xl ">Our Pricings</h1>
         <p className="text-dark-300 max-w-[600px] xl:max-w-[650px] xl:text-[17px]">
           Welcome to SkillBridge Pricing Plan page, where we offer two
           comprehensive options to cater to your needs: Free and Pro. We believe
@@ -17,7 +17,7 @@ const Plan = () => {
           that best fits your requirements.
         </p>
       </div>
-      <div className="text-dark-300 text-medium m-auto mb-[40px] mt-[50px] w-fit rounded-lg bg-white p-3">
+      <div className=" text-dark-300 text-medium container m-auto mx-auto mb-[40px] mt-[50px] w-fit rounded-lg bg-white p-3 ">
         <NavLink
           to="/"
           className="rounded-md px-6 py-4 transition-colors hover:bg-orange-500"
@@ -31,7 +31,7 @@ const Plan = () => {
           Yearly
         </NavLink>
       </div>
-      <div className=" mb-[90px] flex w-fit flex-col gap-[30px] rounded-xl bg-white p-5 text-center lg:mb-[120px] lg:flex-row lg:p-12">
+      <div className=" container mx-auto mb-[90px] flex w-fit flex-col gap-[30px] rounded-xl bg-white p-5 text-center lg:mb-[120px] lg:flex-row lg:p-12">
         <div className="bg-light-970 ml-5 mr-20 w-fit rounded-xl p-5 ">
           <h4 className="rounded border-2 border-orange-200 bg-orange-200 py-2 font-medium ">
             Free Plan
@@ -40,7 +40,7 @@ const Plan = () => {
             <span className="text-dark-150 text-[50px] font-semibold">0$</span>
             /monthly
           </span>
-          <div className="rounded-md bg-white p-5">
+          <div className="container mx-auto rounded-md bg-white p-5">
             <h5 className="pb-5 font-medium">Available Features</h5>
             <ul className="flex flex-col gap-5">
               <li className="flex items-center gap-2 rounded-md border p-3 text-left">

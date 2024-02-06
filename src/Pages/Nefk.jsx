@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import cors from "./img/courses/frint.png";
 const Nefk = () => {
   return (
-    <div className="rounded-lg bg-white p-6 ">
+    <div className="container mx-auto rounded-lg bg-white p-6 ">
       <div className="flex flex-col gap-5 lg:flex-row lg:items-center">
         <div>
           <h5 className="text-dark-150 text-lg font-semibold">
@@ -13,12 +14,12 @@ const Nefk = () => {
             appealing and user-friendly websites.
           </p>
         </div>
-        <button
-          type="button"
-          className="bg-light-970 hover:bg-light-950 h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium"
+        <Link
+          to="/Singer"
+          className="   h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium  hover:bg-amber-500 hover:text-white"
         >
           View Course
-        </button>
+        </Link>
       </div>
       <div className="my-6 grid grid-cols-3 gap-x-[10px]">
         <img

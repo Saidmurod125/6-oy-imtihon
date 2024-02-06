@@ -4,7 +4,7 @@ import user3 from "./img/user/user3.png";
 import user4 from "./img/user/user4.png";
 const Obj = () => {
   return (
-    <div className="flex flex-wrap gap-5 pt-10 ">
+    <div className="container mx-auto flex flex-wrap gap-5 pt-10 ">
       <div className=" w-[49%] rounded-xl border px-8 py-5 ">
         <h4 className="">
           The web design course provided a solid foundation for me. The

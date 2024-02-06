@@ -3,7 +3,7 @@ import x from "../image/x.svg";
 import Plan from "./Plan";
 const Pricing = () => {
   return (
-    <main className="flex-1 xl:px-[60px]">
+    <main className="container mx-auto flex-1 xl:px-[60px]">
       <Plan />
       <div className="mb-[50px] flex flex-col justify-between gap-x-20 rounded-xl bg-white p-6 lg:flex-row lg:p-8 xl:p-14">
         <div className="mb-10 lg:max-w-[450px]">

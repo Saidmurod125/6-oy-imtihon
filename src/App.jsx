@@ -6,19 +6,20 @@ import Courses from "./Pages/Courses";
 import About from "./Pages/About ";
 import Pricing from "./Pages/Pricing";
 import Contact from "./Pages/Contact";
+import Singer from "./Pages/singer";
 function App() {
   return (
     <>
       <BrowserRouter>
         <header-top>
-          <div className="mx-5 mt-10 rounded-md bg-amber-700">
+          <div className="container mx-auto mt-10 rounded-md bg-amber-700">
             <p className="p-3 text-center text-white ">
               Free Courses 🌟 Sale Ends Soon, Get It Now ➡
             </p>
           </div>
         </header-top>
 
-        <nav className="container mx-32 mb-28 flex items-center">
+        <nav className="container mx-auto mb-28 flex items-center pr-5 ">
           <img src={Logo} alt="" />
           <Link
             className="ml-[57px] rounded-[8px] p-[10px] focus:bg-gray-200"
@@ -58,8 +59,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Singer" element={<Singer />} />
         </Routes>
-        <footer className="mt-[150px] flex  h-[342px] w-[100%] rounded-[12px]  bg-white">
+        <footer className="container mx-auto  mt-[150px] flex h-[342px]  w-[100%] rounded-[12px] bg-white">
           <div className="ml-[250px] mt-[50px]">
             <img src={Logo} alt="" />
             <br />
