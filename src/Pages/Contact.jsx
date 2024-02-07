@@ -1,3 +1,5 @@
+import Phone from "./phone";
+
 export default function Contact() {
   return (
     <main className="container mx-auto flex-1 xl:px-[60px]">
@@ -13,6 +15,7 @@ export default function Contact() {
           fits your requirements.
         </p>
       </div>
+      <Phone />
     </main>
   );
 }

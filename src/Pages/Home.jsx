@@ -20,8 +20,8 @@ const Home = () => {
     <main className="container mx-auto">
       <section className="container mx-auto ">
         <div className="mx-auto mt-28 h-[337px]  w-[965px]">
-          <div className="flex flex-wrap items-center justify-between ">
-            <div className=" flex h-[100px]  w-[854px] items-center justify-center rounded-xl  bg-white">
+          <div className="mx-auto flex flex-wrap items-center justify-between ">
+            <div className=" mx-auto flex h-[100px]  w-[854px] items-center justify-center rounded-xl  bg-white">
               <div className=" relative left-[-255px]  top-[-55px] h-11 w-10">
                 <img className="h-[43px] w-[39px] " src={logo} alt="" />
               </div>
@@ -35,7 +35,7 @@ const Home = () => {
                 Potential
               </h2>
             </div>
-            <h2 className=" mt-5 h-[57] w-[965px] text-[40px]">
+            <h2 className=" mx-auto mt-5 h-[57]  text-[40px]">
               with Online Design and Development Courses.
             </h2>
             <p className=" mt-5 h-[57] w-[965px]  text-center  text-[20px]">
@@ -270,7 +270,7 @@ const Home = () => {
               <div className="ml-40 mt-20 ">
                 <Link
                   className="bg-light-970 hover:bg-light-950 h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium"
-                  to="/Singer"
+                  to="/Courses"
                 >
                   View all
                 </Link>

@@ -7,7 +7,7 @@ import web from "./img/courses/web.png";
 export default function Courses() {
   return (
     <div className="container mx-auto ">
-      <main className="container mx-32 flex-1 ">
+      <main className="container mx-auto flex-1 ">
         <div className="flex border-b ">
           <h2 className="mb-14 text-2xl font-semibold">
             Online Courses on Design and <br /> Development

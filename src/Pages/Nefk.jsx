@@ -15,7 +15,7 @@ const Nefk = () => {
           </p>
         </div>
         <Link
-          to="/Singer"
+          to="/Singer1"
           className="   h-fit w-min cursor-pointer whitespace-nowrap rounded-md border px-4 py-[14px] font-medium  hover:bg-amber-500 hover:text-white"
         >
           View Course
