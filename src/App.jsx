@@ -10,6 +10,7 @@ import Sinig from "./Pages/Sinig";
 import Loging from "./Pages/Loging";
 import Navbar from "./Pages/Navbar";
 import Futer from "./Pages/Futer";
+import Stroy from "./Pages/Stroy";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Singer1" element={<Singer1 />} />
           <Route path="/Sinig" element={<Sinig />} />
           <Route path="/Loging" element={<Loging />} />
+          <Route path="/Stroy" element={<Stroy />} />
         </Routes>
         <Futer />
       </BrowserRouter>

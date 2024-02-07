@@ -17,7 +17,7 @@ const Plan = () => {
           that best fits your requirements.
         </p>
       </div>
-      <div className=" text-dark-300 text-medium container m-auto mx-auto mb-[40px] mt-[50px] w-fit rounded-lg bg-white p-3 ">
+      <div className=" text-dark-300 text-medium container  mx-auto mb-[40px] mt-[50px] flex w-[272px]  justify-between rounded-lg bg-white p-3 ">
         <NavLink
           to="/"
           className="rounded-md px-6 py-4 transition-colors hover:bg-orange-500"

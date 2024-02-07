@@ -3,6 +3,7 @@ import Svg from "./svg";
 import Twi from "./img/icon/twi.png";
 import Fas from "./img/icon/fa.png";
 import Ini from "./img/icon/em.png";
+import { Link } from "react-router-dom";
 
 const Phone = ({ onNext }) => {
   const [firstName, setFirstName] = useState("");
@@ -146,14 +147,14 @@ const Phone = ({ onNext }) => {
             required
           />
         </div>
-        <button
+        <Link
           className="mr-2 rounded bg-blue-500 px-4 py-2 text-white hover:bg-amber-500"
-          onClick={(handleNext, savePhoneNumber)}
           disabled={!firstName || !lastName || !email || !phoneNumber}
+          onClick={(handleNext, savePhoneNumber)}
           to="/"
         >
           Send Your Message
-        </button>
+        </Link>
       </div>
       <div className="w-[450px]  ">
         <div className=" my-3 h-[155px] w-[360px] items-center  justify-center   rounded-lg bg-slate-100 py-5 text-center  shadow-2xl  ">

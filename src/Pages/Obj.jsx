@@ -20,7 +20,7 @@ const Obj = () => {
           </div>
           <div className="pr-4 ">
             <Link
-              to="/Stor"
+              to="/Stroy"
               className="rounded-xl border px-6 py-2 text-xl hover:bg-amber-500 hover:text-white"
             >
               Read Full Story
@@ -42,7 +42,7 @@ const Obj = () => {
           </div>
           <div className="">
             <Link
-              to="/About"
+              to="/Stroy"
               className="rounded-xl border px-6 py-2 text-xl hover:bg-amber-500 hover:text-white"
             >
               Read Full Story
@@ -64,7 +64,7 @@ const Obj = () => {
           </div>
           <div className="">
             <Link
-              to="/About"
+              to="/Stroy"
               className="rounded-xl border px-6 py-2 text-xl hover:bg-amber-500 hover:text-white"
             >
               Read Full Story
@@ -86,7 +86,7 @@ const Obj = () => {
           </div>
           <div className="">
             <Link
-              to="/About"
+              to="Stroy"
               className="rounded-xl border px-6 py-2 text-xl hover:bg-amber-500 hover:text-white"
             >
               Read Full Story
